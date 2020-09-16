@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TP01"
+             x:Class="TP01.LoginScreen">
+    <ContentPage.Content>
+        <StackLayout Padding="20" BackgroundColor="#000000">
+            <Label FontSize="Title" Text="Aplicação Teste" TextColor="#ffffff" HorizontalOptions="CenterAndExpand"/>
+            <Grid Margin="1" VerticalOptions="CenterAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Label FontSize="Title" Text="ID" TextColor="#ffffff" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center"/>
+                <local:CustomEntry  x:Name="Login" Text = ""
+                        HeightRequest = "40"
+                        Keyboard = "Default" 
+                        HorizontalOptions="FillAndExpand"
+                        Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3"/>
+                <Label FontSize="Title" Text="Pass" TextColor="#ffffff" Grid.Row="1" Grid.Column="0"  HorizontalTextAlignment="Center"/>
+                <local:CustomEntry x:Name="Password" Text = ""
+                        Keyboard = "Default"
+                        IsPassword="True"
+                        HorizontalOptions="FillAndExpand"
+                        Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3"/>
+            </Grid>
+            <StackLayout VerticalOptions="EndAndExpand">
+                <Button x:Name="LoginButton"  Clicked="EfetuarLogin" Text="OK" TextColor="DarkRed"
+                    FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"
+                    BackgroundColor="LightGray" />
+                <Button x:Name="ClearButton" Clicked="LimpaCampos" Text="Limpar" TextColor="DarkRed"
+                    FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"
+                    BackgroundColor="LightGray" />
+                <Button x:Name="CreditsButton" Clicked="ExibirCreditos" Text="Créditos" TextColor="DarkRed"
+                    FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"
+                    BackgroundColor="LightGray" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

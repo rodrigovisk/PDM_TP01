@@ -1,0 +1,15 @@
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\obj\Debug\netstandard2.0\TP01.csprojAssemblyReference.cache
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\obj\Debug\netstandard2.0\Pages\LoginScreen.xaml.g.cs
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\obj\Debug\netstandard2.0\TP01.AssemblyInfoInputs.cache
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\obj\Debug\netstandard2.0\TP01.AssemblyInfo.cs
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\obj\Debug\netstandard2.0\TP01.csproj.CoreCompileInputs.cache
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\bin\Debug\netstandard2.0\TP01.deps.json
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\bin\Debug\netstandard2.0\TP01.dll
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\bin\Debug\netstandard2.0\ref\TP01.dll
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\bin\Debug\netstandard2.0\TP01.pdb
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\obj\Debug\netstandard2.0\TP01.dll
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\obj\Debug\netstandard2.0\ref\TP01.dll
+D:\Estudos\IFSP\6-Sem\PDM\TP01\TP01\TP01\obj\Debug\netstandard2.0\TP01.pdb
